@@ -79,19 +79,23 @@ console.log(`result`, result)
     // The distance of the trip, in total, is 1,500 miles.
     const totalDistance = 1500
     // Your car’s fuel efficiency is as follows:
-
     // At 55 miles per hour, you get 30 miles per gallon.
-
+    const perHour55 = 1500 / 55
+    const perGallon30 = 1500 / 30
+    const cost55 = perHour55 * perGallon30
     // At 60 miles per hour, you get 28 miles per gallon.
-
+    const perHour60 = 1500 / 60
+    const perGallon28 = 1500 / 28
+    const cost60 = perHour60 * perGallon28
     // At 75 miles per hour, you get 23 miles per gallon.
-
+    const perHour75 = 1500 / 75
+    const perGallon23 = 1500 / 23
+    const cost76 = perHour75 * perGallon23
     // You have a fuel budget of $175.
     const fuelBudget = 175
     // The average cost of fuel is $3 per gallon.
-    const avgFuelcost = 3
+    const avgFuelCost = 3
     // Set up a program to answer the following questions:
-
     // How many gallons of fuel will you need for the entire trip?
 
     // Will your budget be enough to cover the fuel expense?
